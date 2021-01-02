@@ -1,0 +1,141 @@
+body{
+  background-color: hsl(0, 0%, 98%);
+  font-family: 'Poppins', sans-serif;
+  margin: 40px auto auto;
+}
+
+img {
+  width: 60px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+p {
+  font-weight: 200;
+  font-size: 12px;
+  color: hsl(229, 6%, 66%);
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 19px;
+  color: hsl(234, 12%, 34%);
+}
+
+.container {
+  margin: auto;
+  /* padding: inherit; */
+}
+
+.header {
+  margin: auto auto 20px;
+  text-align: center;
+}
+
+.t1 {
+  /* font-size: 15px; */
+  font-weight: 200;
+  color: hsl(234, 12%, 34%);
+}
+.t2{
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+}
+.t3{
+  color: hsl(229, 6%, 66%);
+  font-size: 15px;
+  width: 500px;
+  margin: 20px auto auto;
+}
+
+.card {
+  height: 180px;
+  width: 330px;
+  margin: auto;
+  padding: 20px 0 0 15px;
+  box-shadow:  0 4px 10px 2px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  position: relative;
+}
+
+.cd {
+  margin: 25px auto;
+}
+
+.line1 {
+  position: absolute;
+  background-color: hsl(180, 62%, 55%);
+  height: 3px;
+  width: 327px;
+  top: 0;
+  left: 0;
+  border-top-left-radius:  5px;
+  border-top-right-radius: 5px;
+}
+.line2 {
+  position: absolute;
+  background-color: hsl(0, 78%, 62%);
+  height: 3px;
+  width: 327px;
+  top: 0;
+  left: 0;
+  border-top-left-radius:  5px;
+  border-top-right-radius: 5px;
+}
+.line3 {
+  position: absolute;
+  background-color: hsl(34, 97%, 64%);
+  height: 3px;
+  width: 327px;
+  top: 0;
+  left: 0;
+  border-top-left-radius:  5px;
+  border-top-right-radius: 5px;
+}
+.line4 {
+  position: absolute;
+  background-color: hsl(212, 86%, 64%);
+  height: 3px;
+  width: 327px;
+  top: 0;
+  left: 0;
+  border-top-left-radius:  5px;
+  border-top-right-radius: 5px;
+}
+
+.attribution {
+  /* position: absolute;
+  bottom: 30px;
+  left: 50%; */
+  margin: 10px auto;
+}
+
+/* @media (max-width: 768px) {
+  body{
+    overflow-x: auto;
+    overflow-y: auto;
+  }
+} */
+
+
+@media (max-width: 576px) {
+  .t3{
+    color: hsl(229, 6%, 66%);
+    font-size: 15px;
+    width: 300px;
+    margin: 15px auto 50px;
+  }
+/*
+  body {
+    overflow-x: auto;
+    overflow-y: auto;
+  } */
+
+  .attribution {
+    /* position: absolute; */
+    padding: 20px auto;
+    margin: 20px auto;
+  }
+
+}
